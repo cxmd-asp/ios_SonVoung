@@ -1,0 +1,35 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.0'
+
+target 'SafarioneTest' do
+  use_frameworks!
+
+  pod 'DeviceKit', '~> 5.0.0'
+  pod 'IBAnimatable', '~> 6.1.0'
+  pod 'IQKeyboardManagerSwift', '~> 6.5.12'
+  pod 'KVLoading', '~> 2.0.3'
+  pod 'KeychainAccess', '~> 4.2.2'
+  pod 'MessageKit', '~> 3.8.0'
+  pod 'R.swift', '~> 7.3.2'
+  pod 'RealmSwift', '~> 10.42.0'
+  pod 'XMPPFramework/Swift', '~> 4.0.0'
+
+end
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      end
+    end
+  end
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings['DEAD_CODE_STRIPPING'] = 'YES'
+  end
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    end
+  end
+end
