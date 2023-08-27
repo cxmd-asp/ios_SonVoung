@@ -40,11 +40,11 @@
 		C4CB31BB2A9759C500BBC78C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB31BA2A9759C500BBC78C /* Keys.swift */; };
 		C4CB31BD2A975A6E00BBC78C /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB31BC2A975A6E00BBC78C /* RealmManager.swift */; };
 		C4CB31BF2A976E1800BBC78C /* AppSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB31BE2A976E1800BBC78C /* AppSessionData.swift */; };
-		E6DCE5A36B07C014A93A006E /* Pods_SafarioneTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55426EE9AEBF06F80E8019C /* Pods_SafarioneTest.framework */; };
+		F3D4DA2F2EA36CDA0C625304 /* Pods_SafarioneTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EC816127E044E1D8CD74DD /* Pods_SafarioneTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6935448EE972BF41CB61DB1F /* Pods-SafarioneTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafarioneTest.release.xcconfig"; path = "Target Support Files/Pods-SafarioneTest/Pods-SafarioneTest.release.xcconfig"; sourceTree = "<group>"; };
+		65EC816127E044E1D8CD74DD /* Pods_SafarioneTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafarioneTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		926D58C42A966C8F00409100 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		926D58C92A966D0C00409100 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		926D58CB2A966D1E00409100 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		926D58D62A96708000409100 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		926D58DB2A96720C00409100 /* IndividualMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualMessageCell.swift; sourceTree = "<group>"; };
 		926D58DC2A96720C00409100 /* IndividualMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndividualMessageCell.xib; sourceTree = "<group>"; };
-		C3021AD2329D70714DB1D5C0 /* Pods-SafarioneTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafarioneTest.debug.xcconfig"; path = "Target Support Files/Pods-SafarioneTest/Pods-SafarioneTest.debug.xcconfig"; sourceTree = "<group>"; };
+		96B0B605C5A9FD875C44715B /* Pods-SafarioneTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafarioneTest.debug.xcconfig"; path = "Target Support Files/Pods-SafarioneTest/Pods-SafarioneTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C413B8F52A962FC700917C98 /* SafarioneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafarioneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C413B90D2A96302F00917C98 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C413B90F2A96302F00917C98 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		C4CB31BA2A9759C500BBC78C /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		C4CB31BC2A975A6E00BBC78C /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		C4CB31BE2A976E1800BBC78C /* AppSessionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSessionData.swift; sourceTree = "<group>"; };
-		F55426EE9AEBF06F80E8019C /* Pods_SafarioneTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafarioneTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CFCA3FCEB978D7A91F01CE /* Pods-SafarioneTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafarioneTest.release.xcconfig"; path = "Target Support Files/Pods-SafarioneTest/Pods-SafarioneTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,26 +89,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6DCE5A36B07C014A93A006E /* Pods_SafarioneTest.framework in Frameworks */,
+				F3D4DA2F2EA36CDA0C625304 /* Pods_SafarioneTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C294C22DB02D46BD938D7E8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F55426EE9AEBF06F80E8019C /* Pods_SafarioneTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7287D29F29C63532B610158D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3021AD2329D70714DB1D5C0 /* Pods-SafarioneTest.debug.xcconfig */,
-				6935448EE972BF41CB61DB1F /* Pods-SafarioneTest.release.xcconfig */,
+				96B0B605C5A9FD875C44715B /* Pods-SafarioneTest.debug.xcconfig */,
+				E0CFCA3FCEB978D7A91F01CE /* Pods-SafarioneTest.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -186,13 +178,21 @@
 			path = IndividualMessageCell;
 			sourceTree = "<group>";
 		};
+		9A3E8DF7B1A951419982EA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65EC816127E044E1D8CD74DD /* Pods_SafarioneTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C413B8EC2A962FC700917C98 = {
 			isa = PBXGroup;
 			children = (
 				C413B8F72A962FC700917C98 /* SafarioneTest */,
 				C413B8F62A962FC700917C98 /* Products */,
 				7287D29F29C63532B610158D /* Pods */,
-				1C294C22DB02D46BD938D7E8 /* Frameworks */,
+				9A3E8DF7B1A951419982EA44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -347,12 +347,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C413B9092A962FC900917C98 /* Build configuration list for PBXNativeTarget "SafarioneTest" */;
 			buildPhases = (
-				653D777B33FBB4F244F21449 /* [CP] Check Pods Manifest.lock */,
+				990A217A468022CC48FA26A5 /* [CP] Check Pods Manifest.lock */,
 				C42811EE2A974B2900AF577E /* R.swift */,
 				C413B8F12A962FC700917C98 /* Sources */,
 				C413B8F22A962FC700917C98 /* Frameworks */,
 				C413B8F32A962FC700917C98 /* Resources */,
-				2DDEBDA57557D9BC5D7432A4 /* [CP] Embed Pods Frameworks */,
+				200A1F7B14FDB8DF9235B01E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -415,7 +415,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DDEBDA57557D9BC5D7432A4 /* [CP] Embed Pods Frameworks */ = {
+		200A1F7B14FDB8DF9235B01E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -432,7 +432,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SafarioneTest/Pods-SafarioneTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		653D777B33FBB4F244F21449 /* [CP] Check Pods Manifest.lock */ = {
+		990A217A468022CC48FA26A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -639,13 +639,13 @@
 		};
 		C413B90A2A962FC900917C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3021AD2329D70714DB1D5C0 /* Pods-SafarioneTest.debug.xcconfig */;
+			baseConfigurationReference = 96B0B605C5A9FD875C44715B /* Pods-SafarioneTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEVELOPMENT_TEAM = 9K325FD2A2;
+				DEVELOPMENT_TEAM = N2AC972CK4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SafarioneTest/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -657,7 +657,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vti.com.SafarioneTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.banksalaam.iaptest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -667,12 +667,13 @@
 		};
 		C413B90B2A962FC900917C98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6935448EE972BF41CB61DB1F /* Pods-SafarioneTest.release.xcconfig */;
+			baseConfigurationReference = E0CFCA3FCEB978D7A91F01CE /* Pods-SafarioneTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = N2AC972CK4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SafarioneTest/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -684,7 +685,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vti.com.SafarioneTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.banksalaam.iaptest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

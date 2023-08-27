@@ -1,0 +1,90 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaLumberjack (3.8.1):
+    - CocoaLumberjack/Core (= 3.8.1)
+  - CocoaLumberjack/Core (3.8.1)
+  - CocoaLumberjack/Swift (3.8.1):
+    - CocoaLumberjack/Core
+  - DeviceKit (5.0.0)
+  - IBAnimatable (6.1.0)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - IQKeyboardManagerSwift (6.5.12)
+  - KeychainAccess (4.2.2)
+  - KissXML (5.3.1):
+    - KissXML/All (= 5.3.1)
+  - KissXML/Additions (5.3.1):
+    - KissXML/Core
+  - KissXML/All (5.3.1):
+    - KissXML/Additions
+    - KissXML/Core
+  - KissXML/Core (5.3.1)
+  - KVLoading (2.0.3)
+  - libidn (1.35)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - R.swift (7.3.2)
+  - Realm (10.42.0):
+    - Realm/Headers (= 10.42.0)
+  - Realm/Headers (10.42.0)
+  - RealmSwift (10.42.0):
+    - Realm (= 10.42.0)
+  - XMPPFramework/default (4.0.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack
+    - KissXML (~> 5.2)
+    - libidn (~> 1.35)
+  - XMPPFramework/Swift (4.0.0):
+    - CocoaLumberjack/Swift
+    - XMPPFramework/default
+
+DEPENDENCIES:
+  - DeviceKit (~> 5.0.0)
+  - IBAnimatable (~> 6.1.0)
+  - IQKeyboardManagerSwift (~> 6.5.12)
+  - KeychainAccess (~> 4.2.2)
+  - KVLoading (~> 2.0.3)
+  - MessageKit (~> 3.8.0)
+  - R.swift (~> 7.3.2)
+  - RealmSwift (~> 10.42.0)
+  - XMPPFramework/Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - DeviceKit
+    - IBAnimatable
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - KissXML
+    - KVLoading
+    - libidn
+    - MessageKit
+    - R.swift
+    - Realm
+    - RealmSwift
+    - XMPPFramework
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaLumberjack: 5c7e64cdb877770859bddec4d3d5a0d7c9299df9
+  DeviceKit: 0fd016a2cb67aca17c33dc23171cac270131eb88
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
+  KVLoading: de123c5840f27636e6320ec1fb00ba29f8833c12
+  libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
+  Realm: 490aad28f1360e58fc22256d5d686d3a36525346
+  RealmSwift: f6a9b56d747bbdd7931de1835896c5f024b6898a
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
+
+PODFILE CHECKSUM: 6ffda1dfafbc23506a29bb214ab02adfb0157a66
+
+COCOAPODS: 1.12.1
